@@ -18,19 +18,21 @@ def call_predict_gas_api(link):
 
 
 
-def get_request_with_authentication():
+def get_request_with_authentication(state: str,
+                                    start_date: str,
+                                    end_date: str,
+                                    component_type: str = "residential"):
 
     api_key = "1ocgRB9yyf0QBhis3R3T3f8Rp2J0raO2OLxgSnI5"  #API Key Used for authentication.
     headers = {'x-api-key': api_key,
-               'start_date': "2021-01-01",
-               'end_date': "2027-12-31",
-               'state': "Virginia",
-               'component_type': "residential"
+               'start_date': start_date,
+               'end_date': end_date,
+               'state': state,
+               'component_type': component_type
                }
 
     request_string = "https://7hebop3w6c.execute-api.us-east-2.amazonaws.com/default/predictgas"
     return request_string, headers
-
 
 
 def test_api_gateway(request_string, headers, result=None):
@@ -66,11 +68,18 @@ def test_api_gateway(request_string, headers, result=None):
 
     return df, status
 
-def test_concurrent_request_execution():
+def test_concurrent_request_execution(state: str,
+                                      start_date: str,
+                                      end_date: str,
+                                      component_type: str = "residential"):
 
     logging.basicConfig(level=logging.DEBUG)
     session = FuturesSession()
-    request_string, headers = get_request_with_authentication()
+    request_string, headers = get_request_with_authentication(state,
+                                                              start_date,
+                                                              end_date,
+                                                              component_type)
+
     results = []
     for i in range(20):
         start = time.time()
@@ -79,12 +88,37 @@ def test_concurrent_request_execution():
         end = time.time()
         print(f"Time taken to call API Gateway: {end - start}")
 
+
     for future_result in results:
         response = future_result.result()
         result, status_code = test_api_gateway(response.text, headers, result=response)
         assert(status_code, "Success")
 
+    return result
+
+
+
+def get_state_gas_consumption(state: str,
+                              start_date: str,
+                              end_date: str):
+
+
+    component_type = "residential"
+    result = test_concurrent_request_execution(state,
+                                               start_date,
+                                               end_date,
+                                               component_type)
+    return result
+
+
+
 
 if __name__ == "__main__":
 
-    test_concurrent_request_execution()
+
+
+    state = "Virginia"
+    start_date = "2021-01-01"
+    end_date = "2027-12-31"
+
+    get_state_gas_consumption(state, start_date, end_date)
