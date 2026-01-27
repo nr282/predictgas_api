@@ -6,7 +6,7 @@ PredictGas API aims to predict Natural Gas Consumption State By State using (1) 
  
  Our API has a 4% prediction error. Our claim is that we have 9% - 4% = 5% skill. 
 
- This is likely more competetive in accuracy than the following firms (1) Tudor, (2) Millenium, (3) Hartree Partners. 
+ This is likely more competetive in accuracy than the competitors 
 
 
 
