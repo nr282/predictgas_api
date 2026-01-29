@@ -8,7 +8,8 @@ PredictGas API aims to predict Natural Gas Consumption State By State using (1) 
 
  This is likely more competetive in accuracy than the competitors 
 
+# API Documentation
 
-
-
+The API simply calculates Residential Consumption of Natural Gas on a state-by-state basis. The API returns values in the MMCF. The API is based around: (1) a professonal weather data provider and (2) EIA Natural Gas Consumption Reports found for example here for California: 
+https://www.eia.gov/dnav/ng/hist/n3010ca2M.htm
 
