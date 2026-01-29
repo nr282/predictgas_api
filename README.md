@@ -13,12 +13,13 @@ PredictGas API aims to predict Natural Gas Consumption State By State using (1) 
 The API simply calculates Residential Consumption of Natural Gas on a state-by-state basis from start date to end date. Start and End Date can found in the code. The API returns Spectral Technologies's best estimate for a particular date.
 
 If the date is in the past, best estimate will use EIA data and historical weather data. If the date is in the near future, the best estimate will use near term weather forecast. If it is in the far future, it will use average historical weather data in combination with 
-any methodology to increase accuracy.
+any methodology to increase accuracy for that day's weather forecast.
 
 
 
 The API returns values in the MMCF. The API is based around: (1) a professonal weather data provider and (2) EIA Natural Gas Consumption Reports found for example here for California: 
 https://www.eia.gov/dnav/ng/hist/n3010ca2M.htm
+
 
 
 
