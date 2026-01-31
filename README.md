@@ -22,7 +22,8 @@ https://www.eia.gov/dnav/ng/hist/n3010ca2M.htm
 
 # Feature Requests
 
-Currently, we construct $\alpha(t)$
+Currently, $\alpha(t)$ the sensitivity to weather is time-dependent. It is constructed as a monthly function, ie $\alpha(t) = \alpha_{m}$
+
 
 
 
