@@ -20,6 +20,11 @@ any methodology to increase accuracy for that day's weather forecast.
 The API returns values in the MMCF. The API is based around: (1) a professional weather data provider and (2) EIA Natural Gas Consumption Reports found for example here for California: 
 https://www.eia.gov/dnav/ng/hist/n3010ca2M.htm
 
+# Feature Requests
+
+Currently, we construct \alpha(t) 
+
+
 
 
 
