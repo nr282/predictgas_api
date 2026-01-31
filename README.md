@@ -22,7 +22,8 @@ https://www.eia.gov/dnav/ng/hist/n3010ca2M.htm
 
 # Feature Requests
 
-Currently, $\alpha(t)$ the sensitivity to weather is time-dependent. It is constructed as a monthly function, ie $\alpha(t) = \alpha_{m}$, where $m = 1...12$. This leads to the situation where the sensitivity is not smooth in time, this represents a uniform disaggregation in time. This leads us the desire to smooth $\alpha(t)$ using another of Spectral Technologies' technology FDTT. 
+Currently, $\alpha_{u}(t)$ the sensitivity to weather is time-dependent, where the $u$ represents uniform. It is constructed as a monthly function, ie $\alpha_{u}(t) = \alpha_{m}$, where $m = 1...12$. This leads to the situation where the sensitivity is not smooth in time, this represents a uniform disaggregation in time. This leads us the desire to smooth $\alpha_{u}(t)$ using another of Spectral Technologies' technology FDTT. FDTT can be viewed as a mathematical functional $u_{c}(t) = FDTT(\alpha_{u}(t)) = $
+
 
 
 
