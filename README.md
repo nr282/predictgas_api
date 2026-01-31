@@ -26,9 +26,10 @@ https://www.eia.gov/dnav/ng/hist/n3010ca2M.htm
 
 Currently, $\alpha_{u}(t)$ the sensitivity to weather is time-dependent, where the $u$ represents uniform. It is constructed as a monthly function, ie $\alpha_{u}(t) = \alpha_{m}$, where $m = 1...12$. This leads to the situation where the sensitivity is not smooth in time, this represents a uniform disaggregation in time. This leads us the desire to smooth $\alpha_{u}(t)$ using another of Spectral Technologies' technology FDTT. FDTT can be viewed as a mathematical functional $u_{c}(t) = FDTT(\alpha_{u}(t))$. Using $u_{c}(t)$ will be useful in cleaning up and improving the calculation. 
 
-Empirically, I expect to clean up the results significantly. There is a 2x difference between $(max_{j=1...12} \alpha(j) - min_{j=1...12} \alpha(j)) / min_{j=1...12} \alpha(j) \tilde 2$
+Empirically, I expect to clean up the results significantly. There is a 2x difference between $(max_{j=1...12} \alpha(j) - min_{j=1...12} \alpha(j)) / min_{j=1...12} \alpha(j) \sim 2$
 
 ##
+
 
 
 
