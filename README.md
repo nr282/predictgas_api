@@ -18,7 +18,7 @@ any methodology to increase accuracy for that day's weather forecast.
 The API returns values in the MMCF. The API is based around: (1) a professional weather data provider and (2) EIA Natural Gas Consumption Reports found for example here for California: 
 https://www.eia.gov/dnav/ng/hist/n3010ca2M.htm
 
-## Why is Spectral Technologies' better? 
+## Why is Spectral Technologies' Forecasts better? 
 
 Spectral Technologies discovered and solved the "Weather Aggregation" problem. 
 
@@ -27,6 +27,7 @@ The "Weather Aggregation Problem" is the observation that many hedge fund anlays
 ## PredictGas ROI 
 
 PredictGas saves the Natural Gas Trader on average 50k via its algorithms.
+
 
 
 
