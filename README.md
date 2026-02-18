@@ -20,15 +20,14 @@ https://www.eia.gov/dnav/ng/hist/n3010ca2M.htm
 
 ## Why are Spectral Technologies' Forecasts better? 
 
-Spectral Technologies discovered and solved the "Weather Aggregation" problem, making our techniques/forecasts significantly better
-
-The "Weather Aggregation Problem" is the observation that many hedge fund anlaysts aggregate (a) daily weather to a monthly value by taking the average of daily weather data. This reduces the amount of information in the dataset by a factor of 1/30. Hence the aggregating the weather data throws out 97% of the information that is contained in the weather dataset. Often hedge funds will spend between 50k-100k per annum to acquire the weather dataset, only to then toss out not less than 97% of the information by taking the average. This is equivalent to wasting between 0.97 * 50k = 48.5k to 0.97 * 100k = 97k due to lack of having correct code and good theory.
+Spectral Technologies discovered and solved the "Weather Aggregation" problem, making our techniques/forecasts significantly better, yielding 50k per annum in savings.
 
 Some of the theory we mention is provided in the attached white paper called: "Residential Commercial Modelling of Natural Gas Consumption"
 
 ## PredictGas ROI 
 
 PredictGas saves the Natural Gas Trader on average 50k as PredictGas increases informational efficiency.
+
 
 
 
