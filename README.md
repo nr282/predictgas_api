@@ -26,7 +26,8 @@ The "Weather Aggregation Problem" is the observation that many hedge fund anlays
 
 ## PredictGas ROI 
 
-PredictGas saves the Natural Gas Trader on average 50k via its algorithms.
+PredictGas saves the Natural Gas Trader on average 50k as PredictGas increases informational efficiency.
+
 
 
 
