@@ -20,13 +20,12 @@ https://www.eia.gov/dnav/ng/hist/n3010ca2M.htm
 
 ## Why are Spectral Technologies' Forecasts better? 
 
-Spectral Technologies discovered and solved the "Weather Aggregation" problem, making our techniques/forecasts significantly better, yielding 50k per annum in savings.
-
-Some of the theory we mention is provided in the attached white paper called: "Residential Commercial Modelling of Natural Gas Consumption"
+Spectral Technologies discovered and solved the "Weather Aggregation" problem, making our techniques/forecasts significantly better, yielding 50k per annum in savings. The thoery that allowed us to solve said problem is attached in the white paper called: "Residential Commercial Modelling of Natural Gas Consumption"
 
 ## PredictGas ROI 
 
 PredictGas saves the Natural Gas Trader on average 50k as PredictGas increases informational efficiency.
+
 
 
 
