@@ -15,19 +15,27 @@ The API simply calculates Residential Consumption of Natural Gas on a state-by-s
 If the date is in the past, best estimate will use EIA data and historical weather data. If the date is in the near future, the best estimate will use near term weather forecast. If it is in the far future, it will use average historical weather data in combination with 
 any methodology to increase accuracy for that day's weather forecast. 
 
-
-
 The API returns values in the MMCF. The API is based around: (1) a professional weather data provider and (2) EIA Natural Gas Consumption Reports found for example here for California: 
 https://www.eia.gov/dnav/ng/hist/n3010ca2M.htm
 
-# Feature Requests
+## Why are Spectral Technologies' Forecasts better? 
 
-## Use Fast Disaggregation in Time Technology (FDTT). Creation of a daily model. 
+Spectral Technologies discovered and solved the "Weather Aggregation" problem, making our techniques/forecasts significantly better. The theory that allowed us to solve said problem is attached in the white paper called: "Residential Commercial Modelling of Natural Gas Consumption"
 
-Currently, $\alpha_{u}(t)$ the sensitivity to weather is time-dependent, where the $u$ represents uniform. It is constructed as a monthly function, ie $\alpha_{u}(t) = \alpha_{m}$, where $m = 1...12$. This leads to the situation where the sensitivity is not smooth in time, this represents a uniform disaggregation in time. This leads us the desire to smooth $\alpha_{u}(t)$ using another of Spectral Technologies' technology FDTT. FDTT can be viewed as a mathematical functional $u_{c}(t) = FDTT(\alpha_{u}(t))$. Using $u_{c}(t)$ will be useful in cleaning up and improving the calculation. 
+## PredictGas ROI 
 
-Empirically, I expect to clean up the results significantly. There is a 2X variation found in $\alpha_{u}(t)$
-##
+PredictGas leverages weather data much more effectively.
+
+
+
+
+
+
+
+
+
+
+
 
 
 
