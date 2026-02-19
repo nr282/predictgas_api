@@ -1,6 +1,12 @@
-
 """
-Module focuses on calling the relevant API.
+PredictGas is an application that provides state-by-state prediction/estimation
+of Natural Gas Consumption.
+
+The code provided here calls the PredictGas API in a parallel fashion. The function that
+does this parallelization is called "concurrent_request_execution".
+
+This allows for our clients to easily parallelize their usage of our API.
+
 """
 
 import requests
@@ -68,7 +74,7 @@ def test_api_gateway(request_string, headers, result=None):
 
     return df, status
 
-def test_concurrent_request_execution(state: str,
+def concurrent_request_execution(state: str,
                                       start_date: str,
                                       end_date: str,
                                       component_type: str = "residential"):
@@ -81,7 +87,7 @@ def test_concurrent_request_execution(state: str,
                                                               component_type)
 
     results = []
-    for i in range(20):
+    for i in range(100):
         start = time.time()
         future_result = session.get(request_string, headers=headers)
         results.append(future_result)
@@ -104,18 +110,16 @@ def get_state_gas_consumption(state: str,
 
 
     component_type = "residential"
-    result = test_concurrent_request_execution(state,
-                                               start_date,
-                                               end_date,
-                                               component_type)
+    result = concurrent_request_execution(state,
+                                           start_date,
+                                           end_date,
+                                           component_type)
     return result
 
 
 
 
 if __name__ == "__main__":
-
-
 
     state = "Virginia"
     start_date = "2021-01-01"
