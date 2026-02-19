@@ -22,9 +22,12 @@ https://www.eia.gov/dnav/ng/hist/n3010ca2M.htm
 
 Spectral Technologies discovered and solved the "Weather Aggregation" problem, making our techniques/forecasts significantly better. The theory that allowed us to solve said problem is attached in the white paper called: "Residential Commercial Modelling of Natural Gas Consumption"
 
+Futhermore, Spectral Technologies leverages our own FDTT technology to solve critical issues at the intersection of (1) daily and (2) monthly frequency data. Code to FDTT can be found here: https://github.com/nr282/FDTT
+
 ## PredictGas ROI 
 
 PredictGas leverages weather data much more effectively.
+
 
 
 
