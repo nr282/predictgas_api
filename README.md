@@ -29,6 +29,11 @@ Futhermore, Spectral Technologies leverages our own FDTT technology to solve cri
 PredictGas leverages weather data much more effectively.
 
 
+## Author
+
+The author of the codebase is Nathaniel Rogalskyj. Nathaniel Rogalskyj received his Bachelor's degree in Computer Science from Cornell. He can be contacted at: nate.rogalskyj@spectralresearch.io
+
+
 
 
 
