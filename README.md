@@ -28,7 +28,7 @@ Spectral Technologies discovered and solved the "Weather Aggregation" problem, m
 
 Futhermore, Spectral Technologies leverages our own FDTT technology to solve critical issues at the intersection of (1) daily and (2) monthly frequency data. The issue of interpolating monthly frequency to a daily time frequency is a problem our competitors struggle with causing their analysis to have major errors of up to 50%. Code to FDTT can be found here: https://github.com/nr282/FDTT
 
-### \alpha Smile
+### $\alpha$ Smile
 
 
 
@@ -40,6 +40,7 @@ PredictGas leverages weather data much more effectively.
 ## Author
 
 The author of the codebase is Nathaniel Rogalskyj. Nathaniel Rogalskyj received his Bachelor's degree in Computer Science from Cornell. He can be contacted at: nate.rogalskyj@spectralresearch.io
+
 
 
 
