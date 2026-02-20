@@ -30,6 +30,12 @@ Futhermore, Spectral Technologies leverages our own FDTT technology to solve cri
 
 ### $\alpha$ Smile
 
+Sensitivity to weather $\alpha$ is time dependent. The impact of a single HDD/CDD depends on when that HDD/CDD was incurred. I discovered the $\alpha$ smile.
+
+### Climatology
+
+There is a significant time-varying non weather dependent component to Residential Consumption. This component is unknown but can be estimated. Proper treatment of this component can reduce "noise" on fits between weather and consumption by up to 30%. 
+
 
 
 ## PredictGas ROI 
@@ -40,6 +46,7 @@ PredictGas leverages weather data much more effectively.
 ## Author
 
 The author of the codebase is Nathaniel Rogalskyj. Nathaniel Rogalskyj received his Bachelor's degree in Computer Science from Cornell. He can be contacted at: nate.rogalskyj@spectralresearch.io
+
 
 
 
