@@ -20,11 +20,39 @@ https://www.eia.gov/dnav/ng/hist/n3010ca2M.htm
 
 ## Why are Spectral Technologies' Forecasts better? 
 
+### Weather Aggregation Problem
+
 Spectral Technologies discovered and solved the "Weather Aggregation" problem, making our techniques/forecasts significantly better. The theory that allowed us to solve said problem is attached in the white paper called: "Residential Commercial Modelling of Natural Gas Consumption"
+
+### FDTT 
+
+Futhermore, Spectral Technologies leverages our own FDTT technology to solve critical issues at the intersection of (1) daily and (2) monthly frequency data. The issue of interpolating monthly frequency to a daily time frequency is a problem our competitors struggle with causing their analysis to have major errors of up to 50%. Code to FDTT can be found here: https://github.com/nr282/FDTT
+
+### $\alpha$ Smile
+
+Sensitivity to weather $\alpha$ is time dependent. The impact of a single HDD/CDD depends on when that HDD/CDD was incurred in the season. I discovered and developed the $\alpha$ smile; we use this $\alpha$ smile to improve our estimates.
+
+### Climatology
+
+There is a significant time-varying non weather dependent component to Residential Consumption. This component is unknown but can be estimated. Proper treatment of this component can reduce "noise" on fits between weather and consumption by up to 30%. 
+
+
 
 ## PredictGas ROI 
 
 PredictGas leverages weather data much more effectively.
+
+
+## Author
+
+The author of the codebase is Nathaniel Rogalskyj. Nathaniel Rogalskyj received his Bachelor's degree in Computer Science from Cornell. He can be contacted at: nate.rogalskyj@spectralresearch.io
+
+
+
+
+
+
+
 
 
 
