@@ -45,7 +45,7 @@ PredictGas leverages weather data much more effectively.
 
 ## Author
 
-The author of the codebase is Nathaniel Rogalskyj. Nathaniel Rogalskyj received his Bachelor's degree in Computer Science from Cornell. He can be contacted at: nate.rogalskyj@spectralresearch.io
+The author of the codebase is Nathaniel Rogalskyj. Nathaniel Rogalskyj received his Bachelor's degree in Computer Science and Mathematics from Cornell. He can be contacted at: nr282@cornell.edu
 
 
 
